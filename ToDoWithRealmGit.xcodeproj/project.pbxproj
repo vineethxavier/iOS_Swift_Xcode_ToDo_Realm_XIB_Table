@@ -14,6 +14,8 @@
 		AC051EC31FC73BB300A92991 /* ToDoWithRealmGit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC051EC11FC73BB300A92991 /* ToDoWithRealmGit.xcdatamodeld */; };
 		AC051EC51FC73BB300A92991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC051EC41FC73BB300A92991 /* Assets.xcassets */; };
 		AC051EC81FC73BB300A92991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC051EC61FC73BB300A92991 /* LaunchScreen.storyboard */; };
+		AC051ED21FC7555100A92991 /* toDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC051ED01FC7555100A92991 /* toDoCell.swift */; };
+		AC051ED31FC7555100A92991 /* toDoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC051ED11FC7555100A92991 /* toDoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		AC051EC41FC73BB300A92991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC051EC71FC73BB300A92991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC051EC91FC73BB300A92991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC051ED01FC7555100A92991 /* toDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoCell.swift; sourceTree = "<group>"; };
+		AC051ED11FC7555100A92991 /* toDoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = toDoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		AC051EB91FC73BB300A92991 /* ToDoWithRealmGit */ = {
 			isa = PBXGroup;
 			children = (
+				AC051ECF1FC7551E00A92991 /* cell */,
 				AC051EBA1FC73BB300A92991 /* AppDelegate.swift */,
 				AC051EC41FC73BB300A92991 /* Assets.xcassets */,
 				AC051EC61FC73BB300A92991 /* LaunchScreen.storyboard */,
@@ -80,6 +85,15 @@
 				AC051EBE1FC73BB300A92991 /* Main.storyboard */,
 			);
 			path = ToDoWithRealmGit;
+			sourceTree = "<group>";
+		};
+		AC051ECF1FC7551E00A92991 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				AC051ED01FC7555100A92991 /* toDoCell.swift */,
+				AC051ED11FC7555100A92991 /* toDoCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 		CDCC8F6796FD5622FA525AB7 /* Pods */ = {
@@ -156,6 +170,7 @@
 				AC051EC81FC73BB300A92991 /* LaunchScreen.storyboard in Resources */,
 				AC051EC51FC73BB300A92991 /* Assets.xcassets in Resources */,
 				AC051EC01FC73BB300A92991 /* Main.storyboard in Resources */,
+				AC051ED31FC7555100A92991 /* toDoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +232,7 @@
 				AC051EBD1FC73BB300A92991 /* ViewController.swift in Sources */,
 				AC051EBB1FC73BB300A92991 /* AppDelegate.swift in Sources */,
 				AC051EC31FC73BB300A92991 /* ToDoWithRealmGit.xcdatamodeld in Sources */,
+				AC051ED21FC7555100A92991 /* toDoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

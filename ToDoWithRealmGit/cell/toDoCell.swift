@@ -14,7 +14,7 @@ class toDoCell: UITableViewCell {
     @IBOutlet weak var itemName: UILabel!
     @IBOutlet weak var itemQuantity: UITextField!
     
-    func commonInit(_ itemNo:String, itemNme:String ){
+    func commonInit(itemNum itemNo:String, itemNme:String ){
         self.itemNumber.text = itemNo
         self.itemName.text = itemNme
     }

@@ -16,6 +16,8 @@
 		AC051EC81FC73BB300A92991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC051EC61FC73BB300A92991 /* LaunchScreen.storyboard */; };
 		AC051ED21FC7555100A92991 /* toDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC051ED01FC7555100A92991 /* toDoCell.swift */; };
 		AC051ED31FC7555100A92991 /* toDoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC051ED11FC7555100A92991 /* toDoCell.xib */; };
+		AC051EDA1FC9098F00A92991 /* addVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC051ED91FC9098F00A92991 /* addVC.swift */; };
+		AC051EDC1FC9120100A92991 /* SaveFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC051EDB1FC9120100A92991 /* SaveFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		AC051EC91FC73BB300A92991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC051ED01FC7555100A92991 /* toDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoCell.swift; sourceTree = "<group>"; };
 		AC051ED11FC7555100A92991 /* toDoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = toDoCell.xib; sourceTree = "<group>"; };
+		AC051ED91FC9098F00A92991 /* addVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addVC.swift; sourceTree = "<group>"; };
+		AC051EDB1FC9120100A92991 /* SaveFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +85,10 @@
 				AC051EC61FC73BB300A92991 /* LaunchScreen.storyboard */,
 				AC051EC91FC73BB300A92991 /* Info.plist */,
 				AC051EC11FC73BB300A92991 /* ToDoWithRealmGit.xcdatamodeld */,
-				AC051EBC1FC73BB300A92991 /* ViewController.swift */,
+				AC051ED91FC9098F00A92991 /* addVC.swift */,
 				AC051EBE1FC73BB300A92991 /* Main.storyboard */,
+				AC051EDB1FC9120100A92991 /* SaveFile.swift */,
+				AC051EBC1FC73BB300A92991 /* ViewController.swift */,
 			);
 			path = ToDoWithRealmGit;
 			sourceTree = "<group>";
@@ -231,7 +237,9 @@
 			files = (
 				AC051EBD1FC73BB300A92991 /* ViewController.swift in Sources */,
 				AC051EBB1FC73BB300A92991 /* AppDelegate.swift in Sources */,
+				AC051EDC1FC9120100A92991 /* SaveFile.swift in Sources */,
 				AC051EC31FC73BB300A92991 /* ToDoWithRealmGit.xcdatamodeld in Sources */,
+				AC051EDA1FC9098F00A92991 /* addVC.swift in Sources */,
 				AC051ED21FC7555100A92991 /* toDoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
